@@ -37,7 +37,7 @@ Ocorre quando um campo não depende diretamente da chave (nem parcialmente, mas 
 ### Exemplos.
 **PEDIDO**
 |PK| num_disciplina |
-|-------------|-------------|
+|-----------|---------------|
 || prazo_entrega |
 |FK| codigo_vededor |
 || nome_vendador |
@@ -45,5 +45,10 @@ Ocorre quando um campo não depende diretamente da chave (nem parcialmente, mas 
 ## DF Multivalorada
 Ocore quando, para cada valor de um atributo A, existe um conjuto de valores para antes atributos B e C que estão associados a ele, mas são indepentes entre si.**A-->>B**
 
+**ALUNO**
+**PEDIDO**
+|id_aluno| nome_aluno |endereço_aluno|
+|-----------|---------------|---------|
+|20255| Reyner |Rua: josé, 24, Jaury, Itacoatira, Am 691000-00|
 
 
