@@ -22,7 +22,7 @@ Em uma relação com chave composta, um atributo não chave dependa dessa chave 
 || valortotal_prod |
 
 ## DF Parcial
-Ocorre quando atributos não chave deperdem apenas de parte da chava, qunado esta for composta.
+Ocorre quando atributos não cheve deperdem apenas de parte da chava, qunado esta for composta.
 ### Exemplo
 
 **Matricula**
@@ -36,12 +36,14 @@ Ocorre quando atributos não chave deperdem apenas de parte da chava, qunado est
 Ocorre quando um campo não depende diretamente da chave (nem parcialmente, mas depende de outro campo não chave.
 ### Exemplos.
 **PEDIDO**
-|PK| id_aluno |
-|-------------|-------------|
 |PK| num_disciplina |
+|-------------|-------------|
+|| prazo_entrega |
 |FK| codigo_vededor |
 || nome_vendador |
 
-## DF Multivalorada]
-Ocore quando, para cada valor de um atributo A, existe um conjuto de valores para antes atributos B e C que estão associados a ele, mas são indepentes entre si.**A->B**
+## DF Multivalorada
+Ocore quando, para cada valor de um atributo A, existe um conjuto de valores para antes atributos B e C que estão associados a ele, mas são indepentes entre si.**A-->>B**
+
+
 
